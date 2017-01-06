@@ -24,7 +24,6 @@ layout: null
    {% for file in post.audio %}
    <link rel="enclosure" type="{{ file.first | mime_type }}" length="{{ file.last | file_size }}" href="{{ site.url }}/episodes/{{ file.last }}"/>
    {% endfor %}
-   {{ site | flattr_atom:post }}
  </entry>
  {% endfor %}
 

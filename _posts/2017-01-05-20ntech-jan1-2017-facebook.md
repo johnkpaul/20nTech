@@ -12,12 +12,4 @@ chapters:
 - 00:00:00.000 Intro.
 - 00:00:30.000 Outro.
 ---
-## {{ page.subtitle }}
-
-{{ page | web_player_moderator:site }}
-
-## Shownotes and Links
-
-This is our first podcast
-
-* Note
+## Here we talk about Facebook
